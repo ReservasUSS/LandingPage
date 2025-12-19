@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReservasUSS - Gestión Universitaria</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="header">
+        <nav class="container nav-flex">
+            <a href="#" class="logo">
+                <img src="img/USS-logotipo2024.png" alt="USS Logo">
+                <div class="logo-text">Reservas<span>USS</span></div>
+            </a>
+            
+            <ul class="nav-links" id="navMenu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#funcionalidades">Funcionalidades</a></li>
+                <li><a href="#galeria">App</a></li>
+                <li><a href="https://github.com/JeanJairo06/ReservasUSS.v1.0.0/releases/download/v1.0.0/ReservasUSS.apk" class="btn-nav">Instalar APK</a></li>
+            </ul>
+
+            <button class="mobile-toggle" id="mobile-menu" aria-label="Abrir menú" aria-expanded="false">
+                <i class="fas fa-bars icon-open"></i>
+                <i class="fas fa-times icon-close"></i>
+            </button>
+        </nav>
+        <div class="nav-backdrop" id="navBackdrop"></div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="badge-android"><i class="fab fa-android"></i> Versión 1.0.0 Oficial</span>
+                <h1>Reserva tus espacios en la <span>USS</span> fácilmente</h1>
+                <p>Gestiona salas de estudio, gimnasio y ambientes especializados. Exclusivo para la comunidad Sipán.</p>
+                <div class="hero-btns">
+                    <a href="https://github.com/JeanJairo06/ReservasUSS.v1.0.0/releases/download/v1.0.0/ReservasUSS.apk" class="btn btn-primary">Descargar APK</a>
+                    <a href="#funcionalidades" class="btn btn-outline">Saber más</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="phone-frame">
+                    <img src="img/inicio.jpg" alt="App Preview">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="funcionalidades">
+        <div class="container">
+            <div class="section-title">
+                <h2>Funcionalidades Principales</h2>
+                <p>Todo lo que necesitas para gestionar tus espacios universitarios.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-user-check feature-icon"></i>
+                    <h3>Autenticación Segura</h3>
+                    <p>Acceso institucional con tokens de seguridad (@uss.edu.pe).</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-calendar-check feature-icon"></i>
+                    <h3>Reservas Inteligentes</h3>
+                    <p>Evita duplicados y visualiza disponibilidad en tiempo real.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock feature-icon"></i>
+                    <h3>Gestión de Horarios</h3>
+                    <p>Bloques de hasta 2 horas con 14 días de anticipación.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bell feature-icon"></i>
+                    <h3>Notificaciones</h3>
+                    <p>Alertas instantáneas sobre el estado de tus reservas.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-user-shield feature-icon"></i>
+                    <h3>Panel de Control</h3>
+                    <p>Administración total de salas.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-bar feature-icon"></i>
+                    <h3>Estadísticas</h3>
+                    <p>Reportes de uso y auditoría completa del sistema.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="galeria">
+        <div class="container">
+            <div class="section-title">
+                <h2>Explora la Interfaz</h2>
+                <p>Diseño intuitivo pensado en la experiencia del estudiante.</p>
+            </div>
+            <div class="gallery-wrapper">
+                <div class="screen-card">
+                    <div class="screen-img-container">
+                        <img src="img/login.jpg" alt="Login">
+                    </div>
+                    <h4>Login</h4>
+                </div>
+                <div class="screen-card">
+                    <div class="screen-img-container">
+                        <img src="img/salas.jpg" alt="Salas">
+                    </div>
+                    <h4>Salas</h4>
+                </div>
+                <div class="screen-card">
+                    <div class="screen-img-container">
+                        <img src="img/horarios.jpg" alt="Horarios">
+                    </div>
+                    <h4>Horarios</h4>
+                </div>
+                <div class="screen-card">
+                    <div class="screen-img-container">
+                        <img src="img/dasbord.jpg" alt="Dashboard">
+                    </div>
+                    <h4>Dashboard</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-download">
+        <div class="container">
+            <div class="cta-box">
+                <div class="cta-text">
+                    <h2>¿Listo para empezar?</h2>
+                    <p>Descarga la APK oficial e instálala en tu Android. Gestiona tus espacios desde la palma de tu mano.</p>
+                    <a href="https://github.com/JeanJairo06/ReservasUSS.v1.0.0/releases/download/v1.0.0/ReservasUSS.apk" class="btn btn-primary">
+                        <i class="fab fa-android"></i> Descargar v1.0.0
+                    </a>
+                </div>
+                <div class="cta-qr">
+                    <img src="img/qr.jpg" alt="QR Descarga">
+                    <span>ESCANÉAME</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <img src="img/USS-logotipo2024.png" alt="USS" class="footer-logo">
+                <div class="docente-tag">
+                    <span>DOCENTE:</span>
+                    <p>Mg. Ing. Junior Eugenio Cachay Maco</p>
+                </div>
+            </div>
+            <div class="footer-team">
+                <h4>Desarrolladores - Ciclo VIII</h4>
+                <div class="team-list">
+                    <span>J. Senador</span><span>C. Julcahuanca</span><span>Y. Pupuche</span>
+                    <span>D. Escribano</span><span>E. Puicon</span><span>K. Goyes</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 ReservasUSS - Universidad Señor de Sipán
+        </div>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('mobile-menu');
+        const navMenu = document.getElementById('navMenu');
+        const backdrop = document.getElementById('navBackdrop');
+        const toggleMenu = () => {
+            const isOpen = navMenu.classList.toggle('active');
+            menuBtn.classList.toggle('open', isOpen);
+            backdrop.classList.toggle('show', isOpen);
+            document.body.classList.toggle('no-scroll', isOpen);
+            menuBtn.setAttribute('aria-expanded', isOpen);
+        };
+
+        menuBtn.addEventListener('click', toggleMenu);
+        backdrop.addEventListener('click', toggleMenu);
+        navMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+            if (navMenu.classList.contains('active')) toggleMenu();
+        }));
+
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            header.classList.toggle('sticky', window.scrollY > 50);
+        });
+    </script>
+</body>
+</html>
